@@ -1,0 +1,25 @@
+{
+  "name": "cprg309_frog_hopper",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/B-MF/cprg309_frog_hopper#readme",
+  "bugs": {
+    "url": "https://github.com/B-MF/cprg309_frog_hopper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B-MF/cprg309_frog_hopper.git"
+  },
+  "license": "ISC",
+  "author": "Ben Morante Fernandez",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
