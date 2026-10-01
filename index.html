@@ -8,45 +8,31 @@
     <script src="index.js" type="module"></script>
 </head>
 <body>
-    <header>
-        <h1 class="text-5xl text-center p-8">Frog Hopper</h1>
+    <header class="bg-[url(../imgs/water_tile.jpg)] object-cover mb-16 p-8">
+        <h1 class="text-5xl text-center text-green-900 bg-green-700 rounded-full border-6 border-green-800 font-bold pt-6 pb-8 px-8 mx-auto w-fit">Frog Hopper</h1>
     </header>
 
-    <main class="w-1/2 mx-auto">
+    <main>
 
-        <div id="game-grid" class="grid grid-cols-2 grid-rows-2 gap-4 row-1 col-1 mx-auto w-100 align-center bg-[url(../imgs/water_tile.jpg)]">
+        <div id="game-grid" class="grid grid-cols-2 grid-rows-2 gap-4 row-1 col-1 mx-auto w-100 align-center bg-[url(../imgs/water_tile.jpg)] rounded-[2rem]">
+
             <div id="player" class=" w-45 h-45">
-                <!-- <img src="imgs/water_tile.jpg" alt="water with light reflection blobs" class="absolute z-1 w-45 h-45"> -->
                 <img src="imgs/lily_pad.png" alt="green lily pad" class="absolute z-2 w-45 h-45">
                 <img src="imgs/frog.png" alt="frog" class="absolute z-3 w-45 h-45">
-                
-                <!-- <div class="bg-green-300 rounded-full w-40 h-40 mx-auto my-2 lilyPad relative">
-                    <div id="frog"
-                    class="bg-red-500 rounded-full w-20 h-20 mx-auto absolute bottom-10 left-10">
-                    </div>
-                </div> -->
             </div>
-            <div id="tileTwo" class=" w-45 h-45">
-                <!-- <img src="imgs/water_tile.jpg" alt="water with light reflection blobs" class="absolute z-1 w-45 h-45"> -->
-                <img src="imgs/lily_pad.png" alt="green lily pad" class="absolute z-2 w-45 h-45">
-                
-                <!-- <div class="bg-green-300 rounded-full w-40 h-40 mx-auto my-2 lilyPad">
-                </div> -->
-            </div>
-            <div id="tileThree" class=" w-45 h-45">
-                <!-- <img src="imgs/water_tile.jpg" alt="water with light reflection blobs" class="absolute z-1 w-45 h-45"> -->
-                <img src="imgs/lily_pad.png" alt="green lily pad" class="absolute z-2 w-45 h-45">
-                
-                <!-- <div class="bg-green-300 rounded-full w-40 h-40 mx-auto my-2 lilyPad">
-                </div> -->
-            </div>
-            <div id="tileFour" class=" w-45 h-45">
-                <!-- <img src="imgs/water_tile.jpg" alt="water with light reflection blobs" class="absolute z-1 w-45 h-45"> -->
-                <img src="imgs/lily_pad.png" alt="green lily pad" class="absolute z-2 w-45 h-45">
 
-                <!-- <div class="bg-green-300 rounded-full w-40 h-40 mx-auto my-2 lilyPad">
-                </div> -->
+            <div id="tileTwo" class=" w-45 h-45">
+                <img src="imgs/lily_pad.png" alt="green lily pad" class="absolute z-2 w-45 h-45">
             </div>
+
+            <div id="tileThree" class=" w-45 h-45">
+                <img src="imgs/lily_pad.png" alt="green lily pad" class="absolute z-2 w-45 h-45">
+            </div>
+
+            <div id="tileFour" class=" w-45 h-45">
+                <img src="imgs/lily_pad.png" alt="green lily pad" class="absolute z-2 w-45 h-45">
+            </div>
+
         </div>
     
     </main>
